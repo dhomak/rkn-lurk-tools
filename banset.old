@@ -1,0 +1,12 @@
+Encoding.default_external = Encoding::UTF_8
+
+puts %W("http://lurkmore.co/
+"https://lurkmore.co/
+"http://lurkmore.to/
+"https://lurkmore.to/
+"http://lurkmore.so/
+"https://lurkmore.so/
+"http://lurkmore.net/
+"https://lurkmore.net/
+"http://lurkmo.re/
+"https://lurkmo.re/).map { |a| a + ARGV[0] + '?" 1;'}
